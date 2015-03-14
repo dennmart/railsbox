@@ -58,7 +58,8 @@ angular.module('app.railsbox').controller 'ConfigurationController', ['$scope', 
              { version: '2.1.3',    label: '2.1.3' },
              { version: '2.1.4',    label: '2.1.4' },
              { version: '2.1.5',    label: '2.1.5' },
-             { version: '2.2.0',    label: '2.2.0', default: true },
+             { version: '2.2.0',    label: '2.2.0' },
+             { version: '2.2.1',    label: '2.2.1', default: true },
              { version: '2.2-head', label: '2.2-head' }, ]
 
   $scope.rubyInstalls =

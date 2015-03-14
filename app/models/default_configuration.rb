@@ -34,7 +34,7 @@ class DefaultConfiguration
       server_name: 'localhost',
       rails_version: '4',
       ruby_install: 'rvm',
-      ruby_version: '2.2.0',
+      ruby_version: '2.2.1',
       environment_file: "/#{app_name}/.envrc",
       databases: ['postgresql'],
       background_jobs: [],
